@@ -101,6 +101,8 @@ When focusing on the slider, left and right keyboard buttons move the slider bar
   <div first>This apple is green</div>
   <div second>This apple is red</div>
 </amp-image-slider>
+
+jdkflajsdlfld
 ```
 
 ## Actions

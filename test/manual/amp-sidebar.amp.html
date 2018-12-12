@@ -184,6 +184,14 @@
     body#mybody > amp-sidebar {
       background: grey;
     }
+
+    amp-sidebar[open] {
+      transition: transform 0.3s cubic-bezier(0.0, 0.0, 0.2, 1);
+    }
+
+    amp-sidebar {
+      transition: transform 0.2s cubic-bezier(0.4, 0.0, 1, 1);
+    }
   </style>
   <script async src="https://cdn.ampproject.org/v0.js"></script>
   <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
